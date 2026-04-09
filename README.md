@@ -35,57 +35,8 @@ O sistema foi modelado utilizando **interfaces segregadas**, garantindo baixo ac
 
 ## 📊 Diagrama UML
 
-![Diagrama UML](./docs/diagrama.png)
-
----
-
-## 🏗️ Estrutura do Projeto
-
-smartphone-simulator/
-│
-├── smartphone/
-│ ├── device/
-│ │ └── IPhone.java
-│ │
-│ ├── reprodutor/
-│ │ └── ReprodutorMusical.java
-│ │
-│ ├── telefone/
-│ │ └── AparelhoTelefonico.java
-│ │
-│ └── navegador/
-│ └── NavegadorInternet.java
+<img width="837" height="411" alt="image" src="https://github.com/user-attachments/assets/45352156-e03a-49e3-be6c-9dba3ea6a45c" />
 
 
 ---
 
-## 💻 Exemplo de Uso
-
-```java
-IPhone iphone = new IPhone();
-
-iphone.ligar("99999-9999");
-iphone.atender();
-
-iphone.selecionarMusica("Minha Música Favorita");
-iphone.tocar();
-
-iphone.exibirPagina("https://www.google.com");
-🧩 Conceitos Demonstrados
-✔️ Programação Orientada a Objetos (POO)
-✔️ Interfaces e contratos
-✔️ Polimorfismo
-✔️ Separação de responsabilidades
-✔️ Modelagem UML
-✔️ Princípios SOLID (ISP)
-📈 Evoluções Futuras
-Implementar múltiplos dispositivos (ex: AndroidPhone)
-Introduzir estado interno (música atual, chamadas, abas)
-Adicionar testes unitários com JUnit
-Aplicar logging (SLF4J)
-Evoluir para arquitetura com Spring Boot
-🎯 Diferenciais
-Código limpo e organizado
-Separação clara de responsabilidades
-Modelagem alinhada com boas práticas de mercado
-Estrutura preparada para evolução
